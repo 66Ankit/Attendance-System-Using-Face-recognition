@@ -1,0 +1,32 @@
+{
+  "name": "cat_and_dog",
+  "version": "1.0.0",
+  "description": "web app for cat and dog classifier",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pirate hunter",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "face-api.js": "^0.22.2",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webcam-easy": "^1.0.5",
+    "webcam.js": "^1.0.1",
+    "webcamjs": "^1.0.26"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

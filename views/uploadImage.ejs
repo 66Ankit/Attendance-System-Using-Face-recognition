@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Complete the action</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css">
+
+<script>
+// this is to access ejs varible in generateencodings script
+var Roll= <%= Roll%>
+console.log(Roll)
+</script>
+
+<script  defer src="../face-api.min.js" ></script>
+<script  defer src="../generateEncodings.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+    .container{
+          margin: auto;
+          width: 50%;
+          padding: 10px;
+            }
+</style>
+<body>
+    <div class="container">
+        <h3>Please Complete the Registration Process</h3>
+    </div>
+    <div class="container">
+        <div class="form-group">
+            <input type="file" accept="image/*" class="form-control" id="faceID" name="face" >
+            <div class="container">
+                <button type="submit" class="btn btn-primary" id="uploadImage">Submit</button>
+            
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
